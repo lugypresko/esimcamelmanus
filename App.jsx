@@ -40,9 +40,6 @@ import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import FAQ from './pages/FAQ';
 import CompatibilityQuiz from './components/CompatibilityQuiz';
-import Ecom from './Ecom';
-import Cart from './Cart';
-import Checkout from './Checkout';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -51,9 +48,6 @@ function App() {
     { type: 'bot', message: 'Hi! I\'m your friendly eSIMCamel guide 🐪 How can I help you with your eSIM journey today?' }
   ])
   const [currentMessage, setCurrentMessage] = useState('')
-  const [cart, setCart] = useState([]);
-  const [showCart, setShowCart] = useState(false);
-  const [showCheckout, setShowCheckout] = useState(false);
 
   const plans = [
     {
@@ -194,14 +188,6 @@ function App() {
     'Multiple countries coverage?'
   ]
 
-  // Cart handlers
-  const handleAddToCart = (product) => setCart((prev) => [...prev, product]);
-  const handleRemoveFromCart = (idx) => setCart((prev) => prev.filter((_, i) => i !== idx));
-  const handleViewCart = () => setShowCart(true);
-  const handleBackToShop = () => { setShowCart(false); setShowCheckout(false); };
-  const handleCheckout = () => { setShowCart(false); setShowCheckout(true); };
-  const handleBackToCart = () => { setShowCheckout(false); setShowCart(true); };
-
   return (
     <Router>
       <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-50 to-white relative overflow-hidden">
@@ -232,7 +218,6 @@ function App() {
                 <Link to="/faq" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">FAQ</Link>
                 <Link to="/#support" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">Support</Link>
                 <Link to="/#about" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">About</Link>
-                <Link to="/shop" className="text-gray-700 hover:text-purple-600 transition-colors font-medium">Shop</Link>
               </nav>
 
               <div className="flex items-center space-x-4">
@@ -719,9 +704,6 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/shop" element={<Ecom onViewCart={() => setShowCart(true)} />} />
-          <Route path="/cart" element={<Cart cart={cart} onRemove={handleRemoveFromCart} onCheckout={handleCheckout} onBack={handleBackToShop} />} />
-          <Route path="/checkout" element={<Checkout cart={cart} onBack={handleBackToCart} />} />
         </Routes>
 
         {/* Footer */}
