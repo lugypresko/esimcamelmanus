@@ -1,0 +1,28 @@
+Convert a physical SIM to an eSIM on the same iPhone
+On your iPhone, go to Settings > Cellular.
+Tap Convert to eSIM. If you don't see Convert to eSIM, your carrier doesn't support this option. ...
+Tap Convert Cellular Plan.
+Tap Convert to eSIM.
+Wait for your eSIM to activate. ...
+Remove the physical SIM from your iPhone.
+
+Activating and Using eSIM on Android
+Setting up an eSIM on your Android device is simpler than you might think. Here's a step-by-step guide:
+
+
+
+Check if your Android phone supports eSIM technology. Our guide on eSIM compatible phones may help.
+
+Open your phone's Settings app.
+
+Look for "Network & Internet" or "Connections."
+
+Tap on "Mobile network" or "SIM card manager."
+
+Find and select the option to add an eSIM.
+
+Choose between scanning a QR code or entering an activation code.
+
+Follow the on-screen instructions to complete the setup.
+
+Once activated, your eSIM works just like a regular SIM card. You can use it for mobile internet, make calls, and send text messages. The best part? You can switch between multiple eSIMs without physically swapping cards, making it perfect for frequent travelers or those who use separate numbers for work and personal use.

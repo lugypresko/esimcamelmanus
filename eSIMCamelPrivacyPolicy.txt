@@ -1,0 +1,96 @@
+eSIMCamel Privacy Policy
+Last updated: June 12, 2025
+
+1. Introduction
+eSIMCamel is committed to respecting and protecting your privacy. This Policy explains the collection, usage, and protection of your personal data while using our services.
+
+2. Data Collection
+We collect:
+
+Account info: name, email, phone, company
+
+Usage data: API calls, service logs, IP addresses, device/browser info
+
+Communications: email for support, billing, security
+
+We also use cookies and similar on our web interface.
+
+3. Use of Data
+Your data helps us to:
+
+Provide and operate services
+
+Process billing and payments
+
+Communicate with you (service notices, account updates)
+
+Personalize your experience and for marketing (only with consent)
+
+Maintain security, prevent fraud, conduct analytics
+
+4. Data Sharing
+We may share data with:
+
+Service providers (e.g., payment processors)
+
+Legal authorities when required
+
+Affiliates or third parties when processing is required or consented
+
+We do not sell personal data to third parties. 
+telna.com
++12
+telna.com
++12
+holiday.com
++12
+telna.com
++2
+telnyx.com
++2
+telna.com
++2
+telna.com
++5
+telna.com
++5
+telna.com
++5
+
+5. Your Rights
+Depending on applicable laws, you may have the rights to:
+
+Access, correct, delete your personal data
+
+Object or restrict processing
+
+Receive a copy of your data (“data portability”)
+
+Withdraw consent for marketing
+
+To exercise rights, contact us at privacy@esimcamel.com.
+
+6. Data Retention
+We store personal data only as long as needed for service provision or legal compliance, then delete or anonymize it. 
+telna.com
++1
+telnyx.com
++1
+telnyx.com
+telna.com
+
+7. Security
+We implement reasonable safeguards: encryption, access controls, intrusion detection, etc. We cannot guarantee absolute security.
+
+8. International Data Transfers
+Your data may be processed or stored outside your country. We ensure compliance with data protection laws via mechanisms such as standard contractual clauses.
+
+9. Children
+Our services are not directed at children under 16. We do not knowingly collect data from minors.
+
+10. Policy Updates
+This Policy may be updated; material changes will be communicated before taking effect. Most recent revision date is noted.
+
+11. Contact Us
+For questions or requests about privacy, reach out to:
+privacy@esimcamel.com
